@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "276922246296",
+    "project_id": "airplane-c6a2d",
+    "storage_bucket": "airplane-c6a2d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:276922246296:android:0d82c0cacf64c580a45ced",
+        "android_client_info": {
+          "package_name": "com.prameka.airplane"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "276922246296-a2m1li08o8v6m9e8ssfofp6idgtr5ehg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqnYS0ZTmO-xZF7E3NujdPslSp--yl_mM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "276922246296-a2m1li08o8v6m9e8ssfofp6idgtr5ehg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
