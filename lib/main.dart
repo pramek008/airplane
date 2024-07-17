@@ -52,18 +52,13 @@ class Airplane extends StatelessWidget {
           textTheme: GoogleFonts.poppinsTextTheme(),
         ),
         routes: {
-          '/': (context) => Splashpage(),
-          '/on-boarding': (context) => OnBoardPage(),
+          '/': (context) => const Splashpage(),
+          '/on-boarding': (context) => const OnBoardPage(),
           '/sign-up': (context) => SignUpPage(),
           '/sign-in': (context) => SignInPage(),
-          '/bonus': (context) => BonusPage(),
-          '/success': (context) => SuccessPage(),
-          '/main': (context) => MainPage(),
-          //
-          // '/home': (context) => HomePage(),
-          // '/details': (context) => DetailsPage(),
-          // '/choose-seat': (context) => ChooseSeatPage(),
-          // '/checkout': (context) => CheckoutPage(),
+          '/bonus': (context) => const BonusPage(),
+          '/success': (context) => const SuccessPage(),
+          '/main': (context) => const MainPage(),
         },
       ),
     );

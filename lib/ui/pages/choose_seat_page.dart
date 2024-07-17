@@ -1,4 +1,3 @@
-import 'package:airplane/cubit/destination_cubit.dart';
 import 'package:airplane/cubit/seat_cubit.dart';
 import 'package:airplane/models/destination_model.dart';
 import 'package:airplane/models/transaction_model.dart';

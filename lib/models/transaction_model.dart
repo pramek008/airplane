@@ -1,4 +1,3 @@
-import 'dart:convert';
 
 import 'package:airplane/models/destination_model.dart';
 import 'package:equatable/equatable.dart';

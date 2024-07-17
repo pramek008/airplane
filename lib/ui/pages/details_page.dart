@@ -1,4 +1,3 @@
-import 'dart:math';
 
 import 'package:airplane/models/destination_model.dart';
 import 'package:airplane/shared/theme.dart';

@@ -2,7 +2,7 @@ import 'package:airplane/models/transaction_model.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
 class TransactionService {
-  CollectionReference _transactionReference =
+  final CollectionReference _transactionReference =
       FirebaseFirestore.instance.collection('transactions');
 
   Future<void> createTransaction(TransactionModel transaction) async {
@@ -18,7 +18,7 @@ class TransactionService {
         'grandTotal': transaction.grandTotal,
       });
     } catch (e) {
-      throw e;
+      rethrow;
     }
   }
 
@@ -32,7 +32,7 @@ class TransactionService {
           .toList();
       return transactions;
     } catch (e) {
-      throw e;
+      rethrow;
     }
   }
 }

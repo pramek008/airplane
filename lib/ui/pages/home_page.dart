@@ -2,7 +2,6 @@ import 'package:airplane/cubit/auth_cubit.dart';
 import 'package:airplane/cubit/destination_cubit.dart';
 import 'package:airplane/models/destination_model.dart';
 import 'package:airplane/shared/theme.dart';
-import 'package:airplane/ui/pages/success_checkout_page.dart';
 import 'package:airplane/ui/widgets/card_tile_widget.dart';
 import 'package:airplane/ui/widgets/card_widget.dart';
 import 'package:flutter/material.dart';

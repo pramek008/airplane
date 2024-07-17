@@ -18,7 +18,7 @@ class DestinationService {
 
       return destinations;
     } catch (e) {
-      throw e;
+      rethrow;
     }
   }
 }

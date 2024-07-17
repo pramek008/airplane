@@ -2,7 +2,7 @@ import 'package:airplane/models/user_model.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
 class UserService {
-  CollectionReference _userReference =
+  final CollectionReference _userReference =
       FirebaseFirestore.instance.collection('users');
 
   Future<void> setUser(UserModel user) async {
@@ -14,7 +14,7 @@ class UserService {
         'balance': user.balance,
       });
     } catch (e) {
-      throw e;
+      rethrow;
     }
   }
 
@@ -28,7 +28,7 @@ class UserService {
           hobby: snapshot['hobby'],
           balance: snapshot['balance']);
     } catch (e) {
-      throw e;
+      rethrow;
     }
   }
 }
